@@ -7,7 +7,7 @@ This is personal project that I made to showcase my skills in cloud computing. T
 <h3> What problems am I solving? </h3>
 
 1. __Reducing wait times:__ <br>
-   The chatbot's biggest factor in improving customer service is reducing wait times. Many small businesses, particularly restaurants, simply do not have enough staff to answer customer calls at any given moment. During holiday seasons or even just weekends, restaurants receive a high volume of takeout orders. The restaurant chatbot solves all these issues by providing customers with a centralized platform to view the menu and place their orders.
+   The chatbot's biggest factor in improving customer service is reducing wait times. Many small businesses simply do not have enough staff to answer customer calls at any given moment. During holiday seasons or even just weekends, restaurants receive a high volume of takeout orders. The restaurant chatbot solves all these issues by providing customers with a centralized platform to view the menu and place their orders.
 
 2. __Reducing Operational Costs__ <br>
    Small businesses often operate on tight budgets. The chatbot reduces the need for extra staff by handling customer inquiries, reservations, and orders automatically. It works 24/7, ensuring customers get responses even when the restaurant is closed.
@@ -22,3 +22,22 @@ This is personal project that I made to showcase my skills in cloud computing. T
    If the restaurant serves diverse customers, the bot can communicate in multiple languages.
 
 <h1> How did I make this chatbot? </h1>
+
+<h2> Step 1: Create a Bot </h2>
+
+<h2> Step 2: Create Intents and Slot Types </h2>
+
+<h2> Step 3: Create Response Cards </h2>
+
+<h2> Step 4: Create a Lambda Function </h2>
+
+<h2> Step 5: Grant Lex Permission to access the Lambda Function </h2>
+
+<h2> Step 6: Create a Web Page </h2>
+
+<h2> Step 7: Integrate Chatbot into a Web Page </h2>
+
+
+
+
+
