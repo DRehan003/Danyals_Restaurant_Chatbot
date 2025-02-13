@@ -107,7 +107,22 @@ __Greeting:__
 __Order_Food:__
 1. Click **"Intents"**.
 2. Click **"Add empty intent"**.
-3. Name the slot type __"Order_Food"__ <br>
+3. Name the slot type __"Order_Food"__
+4. Scroll down to __"Slots"__
+5. Click __"Add Slot"__. Click a slot type and name it the exact same as the slot type.
+6. Add an appropriate prompt.
+7. Repeat steps 5 and 6 for the remaining slot types.
+8. Under __"Sample utterances"__ enter the following:
+      ![image alt](Order_food.png)
+9. Under __"Confirmation"__ <br>
+&nbsp;&nbsp;&nbsp;&nbsp; a. "Confirmation Prompt": __Alright, so you like I'd like to order a {Milkshake_IceCream_Sizes} {Milkshake_IceCream_Flavors} {Food_Item} from the {Store_Location} location?__ <br>
+&nbsp;&nbsp;&nbsp;&nbsp; b. "Decline response": __Okay, please come back when you are ready to order!__
+10. Under __"Fulfillment"__ <br>
+&nbsp;&nbsp;&nbsp;&nbsp; a. "On successful fulfillment": __Great! I have placed your order for a {Milkshake_IceCream_Sizes} {Milkshake_IceCream_Flavors} {Food_Item} at the {Store_Location} location.__ <br>
+&nbsp;&nbsp;&nbsp;&nbsp; b. "In case of failure": __Sorry, something went wrong. Please try again.__
+11. Click the checkmark under __Code Hooks__
+12. Click **"Save intent"** at the bottom of the screen.  
+
 <br>
 
 
