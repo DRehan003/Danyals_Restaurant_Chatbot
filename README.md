@@ -2,7 +2,7 @@
 
 <h3> What is this project? </h3>
 
-This is a chatbot that restaurants can use to aid them in their business. Customers will be able to visit the restaurant's website and view the menu. They can then access a chatbot to place their orders. This chatbot can interact with users through both text and speech. As an example restaurant, I created __"Danyal's Kitchen,"__ a restaurant that sells milkshakes and ice cream in various flavors, sizes, and locations. The user interface can be seen below: <br>
+This is a chatbot that restaurants can use to aid them in their business. Customers will be able to visit the restaurant's website and view the menu. They can then access a chatbot to place their orders. This chatbot can interact with users through both text and speech. As an example restaurant, I created __"Danyal's Kitchen"__, a restaurant that sells milkshakes and ice cream in various flavors, sizes, and locations. The user interface can be seen below: <br>
 <br>
 ![image alt](Website_UI.png)
 
