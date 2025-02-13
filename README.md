@@ -1,8 +1,8 @@
 <h1> Restaurant Chatbot hosted on AWS Cloud </h1>
 
 <h3> What is this project? </h3>
-<br>
-This is personal project that I made to showcase my skills in cloud computing. Throughout this project, I used a variety of services that include: Lex, Lambda, S3, Cloudwatch and even IAM. Furthermore I showcased my skills in basic web development by creating a static website to serve as a menu. Once I had completed creating the chatbot, I then integrated it onto the static website so that customers can view the menu and place an order using the chatbot in one sitting. 
+
+This is personal project that I made to showcase my skills in cloud computing. Throughout this project, I used a variety of services that include: Lex, Lambda, S3, Cloudwatch and IAM. Furthermore I showcased my skills in basic web development by creating a static website to serve as a menu. Once I had completed creating the chatbot, I then integrated it onto the static website so that customers can view the menu and place an order using the chatbot on a centralized platform. 
 
 <h3> What problems am I solving? </h3>
 
