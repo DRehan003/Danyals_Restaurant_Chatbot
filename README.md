@@ -40,11 +40,38 @@ __Multilingual Support:__ If the restaurant serves diverse customers, the bot ca
    5. Children's Online Privacy Protection Act (COPPA): select "no".
    6. Click "Next" button on the bottom of the screen.
    7. Langauge: Leave the default language as English. Select a preferred text-to-speech voice for your bot (I chose Matthew).
-   8. Click "Done" button on the bottom of the screen.
+   8. Click "Done" on the bottom of the screen.
 
 <h2> Step 2: Create Slot Types </h2>
 
-   1. 
+__What are slots?__ <br>
+A slot is a placeholder for user-provided information in a chatbot conversation. For example, in a restaurant chatbot, a user might say:
+"I want a large veggie pizza for delivery at 6 PM."
+Here, "large" (size), "delivery" (order type), and "6 PM" (time) are slot values.
+
+The slots I created were:
+1. __Food_Item:__ The options are milkshakes or ice cream.
+3. __Milkshake_IceCream_Flavors:__ The options are strawberry, chocolate, or vanilla.
+4. __Milkshake_IceCream_Sizes:__ The options are small, medium, or large.
+5. __Store_Location:__ The options are Mckinney, Frisco, or Posper (These are cities in the DFW area).
+
+**How to Create Slots in Amazon Lex**  
+1. Click **"Add slot type"**.  
+2. Click **"Add blank slot type"**.  
+3. Name the slot type according to the table below.  
+4. Set **Slot value resolution** to **Expanded Values**.  
+5. Enter the corresponding slot values.  
+6. Click **"Save Slot Type"** at the bottom of the screen.  
+
+| **Slot Name**                    | **Slot Values**                            |  
+|----------------------------------|-------------------------------------------|  
+|  Food_Item                       | Milkshake, Ice Cream                      |  
+|  Milkshake_IceCream_Flavors       | Strawberry, Chocolate, Vanilla            |  
+|  Milkshake_IceCream_Sizes         | Small, Medium, Large                      |  
+|  Store_Location                   | McKinney, Frisco, Prosper                 |  
+
+
+
 
 <h2> Step 2: Create Intents </h2>
 
