@@ -1,14 +1,19 @@
 <h1> Restaurant Chatbot hosted on AWS Cloud </h1>
 
+<h3> Overview </h3>
+
+I created __"Danyal's Kitchen"__, a restaurant that sells milkshakes and ice cream in various flavors, sizes, and locations. Customers will be able to visit the restaurant's website and view the menu. On the website, customers can access a chatbot to place their orders. This chatbot can interact with users through both text and speech. To enhance the experience, I created response cards The user interface can be seen below: <br>
+<br>
+
+
+
 <h3> What is this project? </h3>
 
-This is a chatbot that restaurants can use to aid them in their business. Customers will be able to visit the restaurant's website and view the menu. They can then access a chatbot to place their orders. This chatbot can interact with users through both text and speech. As an example restaurant, I created __"Danyal's Kitchen"__, a restaurant that sells milkshakes and ice cream in various flavors, sizes, and locations. The user interface can be seen below: <br>
-<br>
-![image alt](Website_UI.png)
-
-<h3> Why did I make this project? </h3>
-
 I made this is personal project to showcase my skills in cloud computing. The AWS services I used throughout this project were [Lex](https://aws.amazon.com/lex/), [Lambda](https://aws.amazon.com/lambda/), [S3](https://aws.amazon.com/s3/), [Cloudwatch](https://aws.amazon.com/cloudwatch/) and [IAM](https://aws.amazon.com/iam/). Furthermore I showcased my skills in basic web development by creating a static website to serve as a menu. Once I had created the chatbot, I integrated it onto the static website so that customers can view the menu and place an order using the chatbot on a centralized platform.
+
+<h3> Who does this help? </h3>
+
+This is a chatbot that restaurants can use to aid them in their business. Customers will be able to visit the restaurant's website and view the menu. They can then access a chatbot to place their orders. This chatbot can interact with users through both text and speech. As an example restaurant, I created __"Danyal's Kitchen"__, a restaurant that sells milkshakes and ice cream in various flavors, sizes, and locations. The user interface can be seen below:
 
 <h3> What problems am I solving? </h3>
 
