@@ -2,7 +2,11 @@
 
 <h3> What is this project? </h3>
 
-This is personal project that I made to showcase my skills in cloud computing. The AWS services I used throughout this project were [Lex](https://aws.amazon.com/lex/), [Lambda](https://aws.amazon.com/lambda/), [S3](https://aws.amazon.com/s3/), [Cloudwatch](https://aws.amazon.com/cloudwatch/) and [IAM](https://aws.amazon.com/iam/). Furthermore I showcased my skills in basic web development by creating a static website to serve as a menu. Once I had completed creating the chatbot, I then integrated it onto the static website so that customers can view the menu and place an order using the chatbot on a centralized platform. 
+This is a chatbot for restraunts to use for their businesses. Customers will be able to go to the restraunt website and look at the menu. On that same website, customers will be able to access a chatbot to place their order. The user interface can be seen below.
+
+
+
+This is personal project that I made to showcase my skills in cloud computing. The AWS services I used throughout this project were [Lex](https://aws.amazon.com/lex/), [Lambda](https://aws.amazon.com/lambda/), [S3](https://aws.amazon.com/s3/), [Cloudwatch](https://aws.amazon.com/cloudwatch/) and [IAM](https://aws.amazon.com/iam/). Furthermore I showcased my skills in basic web development by creating a static website to serve as a menu. Once I had completed creating the chatbot, I then integrated it onto the static website so that customers can view the menu and place an order using the chatbot on a centralized platform. This chatbot can converse with users through text and speech.
 
 <h3> What problems am I solving? </h3>
 
@@ -21,13 +25,32 @@ __Enhancing Efficiency:__ Staff can fully focus their time on serving in-store c
 
 __Multilingual Support:__ If the restaurant serves diverse customers, the bot can communicate in multiple languages.
 
-<h1> How did I make this Chatbot? </h1>
+<h1> How did I make this Chatbot? </h1> 
 
 <h2> Step 1: Create a Bot </h2>
 
-   
+   1. Click "Create Bot" on the Amazon Lex service.
+   2. Creation Method: Create a Blank Bot.
+   3. Bot Configuration: Give the bot a name and add a description of what the purpose of the bot is (The title of my bot was "DanyalsKitchen").
+   4. IAM permissions: select "Create a role with basic Amazon Lex permissions".
+   5. Children's Online Privacy Protection Act (COPPA): select "no".
+   6. Click "Next" button on the bottom of the screen.
+   7. Langauge: Leave the default language as English. Select a preferred text-to-speech voice for your bot (I chose Matthew).
+   8. Click "Done" button on the bottom of the screen.
 
-<h2> Step 2: Create Intents and Slot Types </h2>
+<h2> Step 2: Create Slot Types </h2>
+
+   1. 
+
+<h2> Step 2: Create Intents </h2>
+
+   1. Click on "Intents"
+   2. Click on the "FallbackIntent" intent.
+   3. Scroll down to closing response. Update the message to "Sorry, I can't help with that".
+
+   1. Click "Add intent".
+   2. Click "Add empty intent".
+   3. Name the intent "Order_Food"
 
 <h2> Step 3: Create Response Cards </h2>
 
