@@ -2,7 +2,7 @@
 
 <h3> What is this project? </h3>
 
-This is personal project that I made to showcase my skills in cloud computing. Throughout this project, I used a variety of services that include: Lex, Lambda, S3, Cloudwatch and IAM. Furthermore I showcased my skills in basic web development by creating a static website to serve as a menu. Once I had completed creating the chatbot, I then integrated it onto the static website so that customers can view the menu and place an order using the chatbot on a centralized platform. 
+This is personal project that I made to showcase my skills in cloud computing. The AWS services I used throughout this project were [Lex](https://aws.amazon.com/lex/), [Lambda](https://aws.amazon.com/lambda/), [S3](https://aws.amazon.com/s3/), [Cloudwatch](https://aws.amazon.com/cloudwatch/) and [IAM](https://aws.amazon.com/iam/). Furthermore I showcased my skills in basic web development by creating a static website to serve as a menu. Once I had completed creating the chatbot, I then integrated it onto the static website so that customers can view the menu and place an order using the chatbot on a centralized platform. 
 
 <h3> What problems am I solving? </h3>
 
@@ -24,6 +24,8 @@ This is personal project that I made to showcase my skills in cloud computing. T
 <h1> How did I make this Chatbot? </h1>
 
 <h2> Step 1: Create a Bot </h2>
+
+   
 
 <h2> Step 2: Create Intents and Slot Types </h2>
 
