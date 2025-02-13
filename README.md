@@ -135,6 +135,17 @@ __FallbackIntent:__
 
 <h2> Step 3: Create Response Cards </h2>
 
+1. Go back to to the Order_Food intent and scroll down to "slots"
+2. Click on each of the 4 slots and click "advanced options"
+3. Scroll down to "Slot prompts"
+4. Click "Add"
+5. Click "Add card group"
+6. Navigate to the github files of this repository and download the DK_logo.jpg
+7. Upload the jpeg into a S3 bucket called "DanyalsKitchen"
+8. copy the URL of image object in S3 and paste it under "Image URL" in Lex
+9. Give the card a title, subtitle, and corresponding buttons depending on the slot.
+10. Repeat the process for each slot.
+
 <h2> Step 4: Create a Lambda Function </h2>
 
 <h2> Step 5: Grant Lex Permission to access the Lambda Function </h2>
