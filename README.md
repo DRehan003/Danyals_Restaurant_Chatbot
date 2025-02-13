@@ -15,11 +15,11 @@ This is personal project that I made to showcase my skills in cloud computing. T
 3. __Eliminating Human Error__ <br>
    The restaurant chatbot significantly reduces human error, which is a common challenge in fast-paced food service environments. It does this by ensuring order-taking accuracy, eliminating manual data entry errors, standardizing customer interactions (making sure promotions, if any, are mentioned), and avoids reservation conflicts.
    
-4. __Enhancing Efficiency__ <br>
-   Staff can fully focus their time on serving in-store customers and maximizing takeout order efficiency.
+<h3> Additional Benefits: </h3>
 
-5. __Multilingual Support__ <br>
-   If the restaurant serves diverse customers, the bot can communicate in multiple languages.
+__Enhancing Efficiency:__ Staff can fully focus their time on serving in-store customers and maximizing takeout order efficiency.
+
+__Multilingual Support:__ If the restaurant serves diverse customers, the bot can communicate in multiple languages.
 
 <h1> How did I make this Chatbot? </h1>
 
