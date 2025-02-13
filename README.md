@@ -45,11 +45,12 @@ __Multilingual Support:__ If the restaurant serves diverse customers, the bot ca
 <h2> Step 2: Create Slot Types </h2>
 
 __What are slots?__ <br>
-A slot is a placeholder for user-provided information in a chatbot conversation. For example, in a restaurant chatbot, a user might say:
-"I want a large veggie pizza for delivery at 6 PM."
-Here, "large" (size), "delivery" (order type), and "6 PM" (time) are slot values.
+<br>
+A slot is a placeholder for user-provided information in a chatbot conversation.<br> For example, in a restaurant chatbot, a user might say:
+"I want to order a small vanilla ice cream for pickup in Mckinney." <br>
+Here "small" (size), "vanilla" (flavor), "ice cream" (item), and "Mckinney" (location) are slot values.
 
-The slots I created were:
+__The slots I created were__:
 1. __Food_Item:__ The options are milkshakes or ice cream.
 3. __Milkshake_IceCream_Flavors:__ The options are strawberry, chocolate, or vanilla.
 4. __Milkshake_IceCream_Sizes:__ The options are small, medium, or large.
@@ -70,18 +71,52 @@ The slots I created were:
 |  Milkshake_IceCream_Sizes         | Small, Medium, Large                      |  
 |  Store_Location                   | McKinney, Frisco, Prosper                 |  
 
-
-
-
 <h2> Step 2: Create Intents </h2>
 
-   1. Click on "Intents"
-   2. Click on the "FallbackIntent" intent.
-   3. Scroll down to closing response. Update the message to "Sorry, I can't help with that".
+__What are intents?__ <br>
+<br>
+In Amazon Lex, an intent represents a specific action or goal that a user wants to accomplish through the chatbot. It defines what the user is trying to do in a conversation.
 
-   1. Click "Add intent".
-   2. Click "Add empty intent".
-   3. Name the intent "Order_Food"
+__How Intents Work:__
+1. User Input: The chatbot listens to what the user says.
+2. Intent Matching: Lex tries to match the user's input to a predefined intent.
+3. Slot Filling: If required, the bot asks follow-up questions to collect necessary details (slots).
+4. Fulfillment: Once all required slots are filled, the bot executes the action (e.g., placing an order).
+
+For example, if a user says: "I want to order a large chocolate milkshake for pickup in Frisco."
+Lex will match this with an intent titled "order_IceCream" and fill in the necassary slots. Once all slots are filled, the bot can confirm the order and process it.
+
+__The intents I created were:__
+1. __Greeting:__ The purpose of this intent is to greet the customer. If the customer were to open the chatbot and say "Hello". This would prompt Lex to match with the Greeting intent and respond with "Hello! Welcome to Danyal's Kitchen. Would you like to see our menu?"
+3. __Order_Food:__ The purpose of this intent is to get orders from customers and place them at the appropriate locations.. 
+4. __FallbackIntent:__ The purpose of this intent is to to respond "Im sorry, I do not understand", to any user inputs that the chatbot cannot recognize or understand. This way customers can retype their inputs.
+
+<h3> How to Create each Intent in Amazon Lex </h3>
+
+__Greeting:__
+1. Click **"Intents"**.  
+2. Click **"Add empty intent"**.  
+3. Name the slot type __"Greeting"__
+4. Under __"Sample utterances"__ enter common phrases or words that indicate a greeting. For example, __"hello", "hi", "what's up", "Hey Danyal's Kitchen!"__.
+5. Scroll down to __"Closing response"__ and type __"Hello! Welcome to Danyal's Kitchen. Would you like to see our menu?"__
+6. Click **"Save intent"** at the bottom of the screen.  
+<br>
+
+
+
+__Order_Food:__
+1. Click **"Intents"**.
+2. Click **"Add empty intent"**.
+3. Name the slot type __"Order_Food"__ <br>
+<br>
+
+
+
+
+__FallbackIntent:__
+1. This intent is already created by Lex by default.
+2. Click on the intent and scroll down to the closing response. Update the message to __"Sorry, I can't help with that".__
+3. Click **"Save intent"** at the bottom of the screen.  
 
 <h2> Step 3: Create Response Cards </h2>
 
