@@ -155,7 +155,7 @@ __FallbackIntent:__
 <br>
 For reference, the flavor response card should like this:
 
-![image alt]
+![image alt](Checkpoint_Images/Response_Card.png)
 
 <h2> Step 4: Create a Lambda Function </h2>
 
