@@ -160,7 +160,7 @@ For reference, the flavor response card should like this:
 <h2> Step 4: Create a Lambda Function </h2>
 
 __Why create a Lambda function?__ <br>
-We create a Lambda function to validate our slot data. Well what does that mean exactly?
+We create a Lambda function to validate our slot data. This means that the chatbot ensures seamless order processing by validating customer inputs (flavor, size, and pickup location) and structuring the order correctly. It handles dialog flow, determining when to ask for missing details or confirm the order. The function can detect if the selections do not match with what the options and notify customers. Most importantly, it sends the finalized order to the appropriate store. This streamlines operations, reduces errors, and enhances customer satisfaction by making the ordering process smooth and efficient Side not:an additional next step I can mae to enhnace the project is to  trigger order confirmations via SMS or email, and even integrate with payment systems if needed).
 
 __How to create the Lambda function:__
 1. Open Lambda and click "Create function"
@@ -168,13 +168,32 @@ __How to create the Lambda function:__
 3. Function Name: "DanyalsKitchenOrder"
 4. Language: Python
 5. Scroll down and click "Create function"
-6. 
+6. Download the __Lambda_Function__ file from the Lambda folder and either: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. Upload the code directly into the "DanyalsKitchen" S3 bucket. Go back to Lambda and click "upload from S3 location" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. Copy and paste the code into Lambda <br>
+7. Click "Deploy"
+8. Go back to the Order_Food intent on Lex and scroll to "Confirmation"
+9. Click "advanced options" and scroll to the bottom
+10. Under "Dialog code hook" and click to checkbox to invoke the lambda function.
+11. Scroll to "Fulfillment" and click advanced options
+12. Click to checkbox to use the lambda function for fulfillment.
+13. Save the intent and click "Build"
+14. Click "Test" and click the gear icon. Under Lambda function, select the name of the function we created.  Now the chatbot can invoke the Lambda function to validate the slots data.
 
-<h2> Step 5: Grant Lex Permission to access the Lambda Function </h2>
+__Key concepts from the code:__
+1. __Session State__: The session state represents the current state of the conversation between the user and the bot.
 
-<h2> Step 6: Create a Web Page </h2>
+2. __Dialog Action__: Indicates the next action Lex should take. Important action types include:
+- **delegate** – Lambda tells Lex what the next action is.  
+- **ElicitSlot** – Lambda tells Lex which slot should be processed for more user data.
 
-<h2> Step 7: Integrate Chatbot into a Web Page </h2>
+3. __Invocation Source__: Indicates from which direction Lex called the Lambda function. 
+- **Dialog CodeHook** – Lambda was called after the input was provided from the user.  
+- **Fulfillment CodeHook** – Lambda was called after all the required slot data has been entered, and the intent is now ready for fulfillment.
+
+<h2> Step 5: Create a Web Page </h2>
+
+<h2> Step 6: Integrate Chatbot into a Web Page </h2>
 
 
 
