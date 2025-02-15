@@ -2,12 +2,9 @@
 
 <h3> Overview </h3>
 
-I created __"Danyal's Kitchen"__, a restaurant that sells milkshakes and ice cream in various flavors, sizes, and locations. Customers will be able to visit the restaurant's website and view the menu. On the website, customers can access a chatbot to place their orders. This chatbot can interact with users through both text and speech. To enhance the user experience, I created response cards. This is especially useful for customers who access the chatbot on their phones. A clip of a the chatbot in action and a photo of the user interface can be seen below: <br>
+I created __"Danyal's Kitchen"__, a restaurant that sells milkshakes and ice cream in various flavors, sizes, and locations. Customers will be able to visit the restaurant's website and view the menu. On the website, customers can access a chatbot to place their orders. This chatbot can interact with users through both text and speech. To enhance the user experience, I created response cards. This is especially useful for customers who access the chatbot on their phones. A clip of a the chatbot in action can be seen below: <br>
 <br>
 [![Video Of My Chatbot](https://img.youtube.com/vi/uwRIyDwf9RI/0.jpg)](https://www.youtube.com/watch?v=uwRIyDwf9RI)
-
-
-![Image alt](Checkpoint_Images/Website_UI.png)
 
 <h3> Why did I make this project? </h3>
 
@@ -211,9 +208,10 @@ __Step 3: Add the Widget to Your Static Website__
 3. Save the file and deploy your website.
 
 __Step 4: Test Your Integration__
-1. Open your website and look for the **Kommunicate chat widget**.
-2. Type a message and verify that the **Lex chatbot responds** correctly.
-3. If needed, adjust the chatbot’s behavior in **Lex or Kommunicate settings**.
+1. Open your website and look for the **Kommunicate chat widget**.It should look like this:
+![Image alt](Checkpoint_Images/Website_UI.png)
+3. Type a message and verify that the **Lex chatbot responds** correctly.
+4. If needed, adjust the chatbot’s behavior in **Lex or Kommunicate settings**.
 
 __Step 5: Upload the website to the S3 bucket__
 1. Simply open the bucket and upload the file. The website is now hosted by S3
