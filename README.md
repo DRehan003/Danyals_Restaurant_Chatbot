@@ -189,11 +189,36 @@ __Key concepts from the code:__
    - **Dialog CodeHook** – Lambda was called after the input was provided from the user.  
    - **Fulfillment CodeHook** – Lambda was called after all the required slot data has been entered, and the intent is now ready for fulfillment.
 
-<h2> Step 5: Create a Web Page </h2>
+<h2> Step 5: Create a Web Page & Integrate the Chatbot </h2>
 
-<h2> Step 6: Integrate Chatbot into a Web Page </h2>
+__Step 1: Create a Kommunicate Account__
+1. Go to [Kommunicate](https://www.kommunicate.io/) and **sign up** or **log in**.
+2. Navigate to **"Bot Integrations" → "Amazon Lex"**.
+3. Click **"Integrate Bot"** and enter:
+   - **Lex Bot Alias ARN**
+   - **Region**
+   - **AWS Access Key and Secret Key** (Generate these from IAM with permissions for Lex)
+4. Save the integration.
 
+__Step 2: Get the Kommunicate Chat Widget Code__
+1. In **Kommunicate Dashboard**, go to **"Settings" → "Install"**.
+2. Copy the **JavaScript snippet** provided for the chat widget.
 
+__Step 3: Add the Widget to Your Static Website__
+1. Open your **HTML file** (e.g., `index.html`).
+2. Paste the **Kommunicate script** just before the closing `</body>` tag.
+3. Save the file and deploy your website.
+
+__Step 4: Test Your Integration__
+1. Open your website and look for the **Kommunicate chat widget**.
+2. Type a message and verify that the **Lex chatbot responds** correctly.
+3. If needed, adjust the chatbot’s behavior in **Lex or Kommunicate settings**.
+
+__Step 5: Customize Chat Widget Appearance (Optional)__
+1. In **Kommunicate settings**, you can:
+   - Change the **bot avatar, welcome messages, and colors**.
+   - Enable **rich media responses** (buttons, images).
+   - Set up **human handoff** for complex queries.
 
 
 
