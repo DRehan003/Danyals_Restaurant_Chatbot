@@ -2,7 +2,7 @@
 
 <h3> Overview </h3>
 
-I created __"Danyal's Kitchen"__, a restaurant that sells milkshakes and ice cream in various flavors, sizes, and locations. Customers will be able to visit the restaurant's website and view the menu. On the website, customers can access a chatbot to place their orders. This chatbot can interact with users through both text and speech. To enhance the user experience, I created response cards. This is especially useful for customers who access the chatbot on their phones. The user interface can be seen below along with a link to video: <br>
+I created __"Danyal's Kitchen"__, a restaurant that sells milkshakes and ice cream in various flavors, sizes, and locations. Customers will be able to visit the restaurant's website and view the menu. On the website, customers can access a chatbot to place their orders. This chatbot can interact with users through both text and speech. To enhance the user experience, I created response cards. This is especially useful for customers who access the chatbot on their phones. A clip of a the chatbot in action and a photo of the user interface can be seen below: <br>
 <br>
 [![Video Of My Chatbot](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=uwRIyDwf9RI)
 
@@ -158,6 +158,17 @@ For reference, the flavor response card should like this:
 ![image alt](Checkpoint_Images/Response_Card.png)
 
 <h2> Step 4: Create a Lambda Function </h2>
+
+__Why create a Lambda function?__ <br>
+We create a Lambda function to validate our slot data. Well what does that mean exactly?
+
+__How to create the Lambda function:__
+1. Open Lambda and click "Create function"
+2. Select "Author from scratch"
+3. Function Name: "DanyalsKitchenOrder"
+4. Language: Python
+5. Scroll down and click "Create function"
+6. 
 
 <h2> Step 5: Grant Lex Permission to access the Lambda Function </h2>
 
