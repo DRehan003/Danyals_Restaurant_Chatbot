@@ -6,7 +6,7 @@ I created __"Danyal's Kitchen"__, a restaurant that sells milkshakes and ice cre
 <br>
 [![Video Of My Chatbot](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=uwRIyDwf9RI)
 
-![Image alt](Website_UI.png)
+![Image alt](Checkpoint_Images/Website_UI.png)
 
 <h3> Why did I make this project? </h3>
 
@@ -113,7 +113,7 @@ __Order_Food:__
 6. Add an appropriate prompt.
 7. Repeat steps 5 and 6 for the remaining slot types.
 8. Under __"Sample utterances"__ enter the following:
-      ![image alt](Order_food.png)
+      ![image alt](Checkpoint_Images/Order_food.png)
 9. Under __"Confirmation"__ <br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. "Confirmation Prompt": **Alright, so you like I'd like to order a {Milkshake_IceCream_Sizes} {Milkshake_IceCream_Flavors} {Food_Item} from the {Store_Location} location?**
@@ -152,6 +152,10 @@ __FallbackIntent:__
 8. copy the URL of image object in S3 and paste it under "Image URL" in Lex
 9. Give the card a title, subtitle, and corresponding buttons depending on the slot.
 10. Repeat the process for each slot.
+<br>
+For reference, the flavor response card should like this:
+
+![image alt]
 
 <h2> Step 4: Create a Lambda Function </h2>
 
