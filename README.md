@@ -115,13 +115,20 @@ __Order_Food:__
 8. Under __"Sample utterances"__ enter the following:
       ![image alt](Order_food.png)
 9. Under __"Confirmation"__ <br>
-&nbsp;&nbsp;&nbsp;&nbsp; a. "Confirmation Prompt": __Alright, so you like I'd like to order a {Milkshake_IceCream_Sizes} {Milkshake_IceCream_Flavors} {Food_Item} from the {Store_Location} location?__ <br>
-&nbsp;&nbsp;&nbsp;&nbsp; b. "Decline response": __Okay, please come back when you are ready to order!__
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. "Confirmation Prompt": **Alright, so you like I'd like to order a {Milkshake_IceCream_Sizes} {Milkshake_IceCream_Flavors} {Food_Item} from the {Store_Location} location?**
+
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  b. "Decline response": **Okay, please come back when you are ready to order!** <br>
+<br>
 10. Under __"Fulfillment"__ <br>
-&nbsp;&nbsp;&nbsp;&nbsp; a. "On successful fulfillment": __Great! I have placed your order for a {Milkshake_IceCream_Sizes} {Milkshake_IceCream_Flavors} {Food_Item} at the {Store_Location} location.__ <br>
-&nbsp;&nbsp;&nbsp;&nbsp; b. "In case of failure": __Sorry, something went wrong. Please try again.__
-11. Click the checkmark under __Code Hooks__
-12. Click **"Save intent"** at the bottom of the screen.  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. "On successful fulfillment": __Great! I have placed your order for a {Milkshake_IceCream_Sizes} {Milkshake_IceCream_Flavors} {Food_Item} at the {Store_Location} location.__ 
+
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  b. "In case of failure": __Sorry, something went wrong. Please try again.__
+<br>
+
+11. Click the checkmark under __"Code Hooks"__
+13. Click **"Save intent"** at the bottom of the screen.  
 
 <br>
 
