@@ -205,7 +205,7 @@ __Step 2: Get the Kommunicate Chat Widget Code__
 2. Copy the **JavaScript snippet** provided for the chat widget.
 
 __Step 3: Add the Widget to Your Static Website__
-1. Open your **HTML file** (e.g., `index.html`).
+1. Download the website file from the "My Website" folder and open in it in a IDE of your choice.
 2. Paste the **Kommunicate script** just before the closing `</body>` tag.
 3. Save the file and deploy your website.
 
@@ -213,6 +213,9 @@ __Step 4: Test Your Integration__
 1. Open your website and look for the **Kommunicate chat widget**.
 2. Type a message and verify that the **Lex chatbot responds** correctly.
 3. If needed, adjust the chatbot’s behavior in **Lex or Kommunicate settings**.
+
+__Step 5: Upload the website to the S3 bucket__
+1. Simply open the bucket and upload the file. The website is now hosted by S3
 
 __Step 5: Customize Chat Widget Appearance (Optional)__
 1. In **Kommunicate settings**, you can:
