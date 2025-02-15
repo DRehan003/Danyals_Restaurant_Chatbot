@@ -182,14 +182,12 @@ __How to create the Lambda function:__
 
 __Key concepts from the code:__
 1. __Session State__: The session state represents the current state of the conversation between the user and the bot.
-
 2. __Dialog Action__: Indicates the next action Lex should take. Important action types include:
-- **delegate** – Lambda tells Lex what the next action is.  
-- **ElicitSlot** – Lambda tells Lex which slot should be processed for more user data.
-
+   - **delegate** – Lambda tells Lex what the next action is.  
+   - **ElicitSlot** – Lambda tells Lex which slot should be processed for more user data.
 3. __Invocation Source__: Indicates from which direction Lex called the Lambda function. 
-- **Dialog CodeHook** – Lambda was called after the input was provided from the user.  
-- **Fulfillment CodeHook** – Lambda was called after all the required slot data has been entered, and the intent is now ready for fulfillment.
+   - **Dialog CodeHook** – Lambda was called after the input was provided from the user.  
+   - **Fulfillment CodeHook** – Lambda was called after all the required slot data has been entered, and the intent is now ready for fulfillment.
 
 <h2> Step 5: Create a Web Page </h2>
 
