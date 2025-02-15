@@ -4,7 +4,8 @@
 
 I created __"Danyal's Kitchen"__, a restaurant that sells milkshakes and ice cream in various flavors, sizes, and locations. Customers will be able to visit the restaurant's website and view the menu. On the website, customers can access a chatbot to place their orders. This chatbot can interact with users through both text and speech. To enhance the user experience, I created response cards. This is especially useful for customers who access the chatbot on their phones. A clip of a the chatbot in action and a photo of the user interface can be seen below: <br>
 <br>
-[![Video Of My Chatbot](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=uwRIyDwf9RI)
+[![Video Of My Chatbot](https://img.youtube.com/vi/uwRIyDwf9RI/0.jpg)](https://www.youtube.com/watch?v=uwRIyDwf9RI)
+
 
 ![Image alt](Checkpoint_Images/Website_UI.png)
 
