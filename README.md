@@ -69,7 +69,7 @@ __The slots I created were__:
 |  Milkshake_IceCream_Sizes         | Small, Medium, Large                      |  
 |  Store_Location                   | McKinney, Frisco, Prosper                 |  
 
-<h2> Step 2: Create Intents </h2>
+<h2> Step 3: Create Intents </h2>
 
 __What are intents?__ <br>
 <br>
@@ -138,7 +138,7 @@ __FallbackIntent:__
 2. Click on the intent and scroll down to the closing response. Update the message to __"Sorry, I can't help with that".__
 3. Click **"Save intent"** at the bottom of the screen.  
 
-<h2> Step 3: Create Response Cards </h2>
+<h2> Step 4: Create Response Cards </h2>
 
 1. Go back to to the Order_Food intent and scroll down to "slots"
 2. Click on each of the 4 slots and click "advanced options"
@@ -155,7 +155,7 @@ For reference, the flavor response card should like this:
 
 ![image alt](Checkpoint_Images/Response_Card.png)
 
-<h2> Step 4: Create a Lambda Function </h2>
+<h2> Step 5: Create a Lambda Function </h2>
 
 __Why create a Lambda function?__ <br>
 We create a Lambda function to validate our slot data. This means that the chatbot ensures seamless order processing by validating customer inputs (flavor, size, and pickup location) and structuring the order correctly. It handles dialog flow, determining when to ask for missing details or confirm the order. The function can detect if the selections do not match with what the options and notify customers. Most importantly, it sends the finalized order to the appropriate store. This streamlines operations, reduces errors, and enhances customer satisfaction by making the ordering process smooth and efficient Side not:an additional next step I can mae to enhnace the project is to  trigger order confirmations via SMS or email, and even integrate with payment systems if needed).
@@ -187,7 +187,7 @@ __Key concepts from the code:__
    - **Dialog CodeHook** – Lambda was called after the input was provided from the user.  
    - **Fulfillment CodeHook** – Lambda was called after all the required slot data has been entered, and the intent is now ready for fulfillment.
 
-<h2> Step 5: Create a Web Page & Integrate the Chatbot </h2>
+<h2> Step 6: Create a Web Page & Integrate the Chatbot </h2>
 
 __Step 1: Create a Kommunicate Account__
 1. Go to [Kommunicate](https://www.kommunicate.io/) and **sign up** or **log in**.
