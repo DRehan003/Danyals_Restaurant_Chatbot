@@ -216,7 +216,7 @@ __Step 4: Test Your Integration__
 __Step 5: Upload the website to the S3 bucket__
 1. Simply open the bucket and upload the file. The website is now hosted by S3
 
-__Step 5: Customize Chat Widget Appearance (Optional)__
+__Step 6: Customize Chat Widget Appearance (Optional)__
 1. In **Kommunicate settings**, you can:
    - Change the **bot avatar, welcome messages, and colors**.
    - Enable **rich media responses** (buttons, images).
